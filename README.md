@@ -1,6 +1,4 @@
 
-![Icon](icon.png)
-
 # Cinematic Camera 2D
 
 **Cinematic Camera 2D** is a plugin that adds a 2D cinematic camera that can be used to create smooth transitions between cameras.
@@ -13,7 +11,7 @@ This repository contains the plugin files and a demo that shows the usage of the
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X87EZ87)
 
-Consider also trying my games: [hexagonnico.itch.io](https://heaxgonnico.itch.io)
+Consider also trying my games: [hexagonnico.itch.io](https://hexagonnico.itch.io)
 
 ## Plugin contents
 
