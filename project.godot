@@ -1,0 +1,46 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "CameraData2D",
+"language": "GDScript",
+"path": "res://addons/cinematic_camera/scripts/camera_data.gd"
+}, {
+"base": "Camera2D",
+"class": "CinematicCamera2D",
+"language": "GDScript",
+"path": "res://addons/cinematic_camera/scripts/cinematic_camera.gd"
+} ]
+_global_script_class_icons={
+"CameraData2D": "res://addons/cinematic_camera/icons/camera_data.svg",
+"CinematicCamera2D": "res://addons/cinematic_camera/icons/cinematic_camera.svg"
+}
+
+[application]
+
+config/name="Cinematic Camera 2D"
+run/main_scene="res://assets/example_scene.tscn"
+
+[editor]
+
+scene_naming=2
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/cinematic_camera/plugin.cfg" )
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true

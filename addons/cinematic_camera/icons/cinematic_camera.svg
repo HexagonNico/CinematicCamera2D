@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="16"
+   viewBox="0 0 16 16"
+   width="16"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="cinematic_camera.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="46.4375"
+     inkscape:cx="7.6446837"
+     inkscape:cy="7.9569314"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M 9.3373433,1 A 2.5640038,2.5640038 0 0 0 6.7833394,3.3737548 2.5640038,2.5640038 0 0 0 5.0640038,2.7093359 2.5640038,2.5640038 0 0 0 2.5,5.2733398 2.5640038,2.5640038 0 0 0 4.2093359,7.6871785 v 1.8595011 c 0,0.4734864 0.3811734,0.8546674 0.8546679,0.8546674 h 5.1280072 c 0.473495,0 0.854668,-0.381181 0.854668,-0.8546674 V 8.6920117 l 2.564004,1.7093353 V 5.2733398 L 11.046679,6.9826757 V 5.4703408 A 2.5640038,2.5640038 0 0 0 11.901348,3.5640038 2.5640038,2.5640038 0 0 0 9.3373433,1 Z"
+     fill="#8da5f3"
+     id="path2"
+     style="stroke-width:0.854668" />
+  <path
+     sodipodi:type="star"
+     style="fill:none;stroke:#8da5f3"
+     id="path1305"
+     inkscape:flatsided="false"
+     sodipodi:sides="3"
+     sodipodi:cx="6.7223697"
+     sodipodi:cy="13.913536"
+     sodipodi:r1="0.97923553"
+     sodipodi:r2="0.48961776"
+     sodipodi:arg1="-0.022390118"
+     sodipodi:arg2="1.0248074"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="M 7.7013598,13.891613 6.9766103,14.33197 6.2518608,14.772328 6.2328746,13.924498 6.2138884,13.076667 6.9576241,13.48414 Z"
+     inkscape:transform-center-x="-0.4265309"
+     inkscape:transform-center-y="0.012234582"
+     transform="matrix(1.8457282,0,0,1.4132387,-5.3621343,-6.4870951)" />
+</svg>

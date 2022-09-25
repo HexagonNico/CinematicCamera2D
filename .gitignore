@@ -1,0 +1,10 @@
+
+# Godot
+.import/
+.godot/
+
+# VS Code
+.vscode
+
+# Binaries
+export/

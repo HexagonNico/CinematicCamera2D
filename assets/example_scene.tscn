@@ -1,0 +1,97 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://addons/cinematic_camera/scripts/cinematic_camera.gd" type="Script" id=1]
+[ext_resource path="res://addons/cinematic_camera/scripts/camera_data.gd" type="Script" id=2]
+[ext_resource path="res://assets/texture.png" type="Texture" id=3]
+[ext_resource path="res://assets/player.gd" type="Script" id=4]
+[ext_resource path="res://assets/camera_trigger.gd" type="Script" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 32, 32 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 10, 64 )
+
+[node name="ExampleScene" type="Node2D"]
+
+[node name="CinematicCamera" type="Camera2D" parent="."]
+position = Vector2( -384, 0 )
+z_index = 2
+current = true
+zoom = Vector2( 0.5, 0.5 )
+process_mode = 0
+smoothing_enabled = true
+script = ExtResource( 1 )
+_camera_data = NodePath("../CameraDataLeft")
+
+[node name="CameraDataLeft" type="Node2D" parent="."]
+z_index = 2
+script = ExtResource( 2 )
+_follow_node = NodePath("../Player")
+zoom = Vector2( 0.7, 0.7 )
+limit_left = -700
+limit_top = -300
+limit_right = 100
+limit_bottom = 300
+
+[node name="CameraDataRight" type="Node2D" parent="."]
+z_index = 2
+script = ExtResource( 2 )
+_follow_node = NodePath("../Player")
+zoom = Vector2( 0.5, 0.5 )
+smoothing_speed = 8.0
+limit_left = 0
+limit_top = -250
+limit_right = 600
+limit_bottom = 250
+
+[node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( -384, 0 )
+z_index = 1
+script = ExtResource( 4 )
+
+[node name="CollisionShape" type="CollisionShape2D" parent="Player"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Player"]
+texture = ExtResource( 3 )
+
+[node name="Terrain5" type="StaticBody2D" parent="."]
+
+[node name="Sprite" type="Sprite" parent="Terrain5"]
+modulate = Color( 0.670588, 1, 0.623529, 1 )
+position = Vector2( -288, 7.62939e-06 )
+scale = Vector2( 7, 8 )
+texture = ExtResource( 3 )
+
+[node name="Sprite2" type="Sprite" parent="Terrain5"]
+modulate = Color( 0.670588, 1, 0.623529, 1 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )
+
+[node name="Sprite3" type="Sprite" parent="Terrain5"]
+modulate = Color( 0.988235, 1, 0.623529, 1 )
+position = Vector2( 128, 0 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )
+
+[node name="Sprite4" type="Sprite" parent="Terrain5"]
+modulate = Color( 0.988235, 1, 0.623529, 1 )
+position = Vector2( 320, 0 )
+scale = Vector2( 4, 6 )
+texture = ExtResource( 3 )
+
+[node name="CollisionPolygon" type="CollisionPolygon2D" parent="Terrain5"]
+modulate = Color( 1, 1, 1, 0 )
+build_mode = 1
+polygon = PoolVector2Array( -64, 64, -64, 256, -512, 256, -512, -256, -64, -256, -64, -64, 192, -64, 192, -192, 448, -192, 448, 192, 192, 192, 192, 64 )
+
+[node name="CameraTrigger" type="Area2D" parent="."]
+position = Vector2( 64, 0 )
+script = ExtResource( 5 )
+camera = NodePath("../CinematicCamera")
+camera_left = NodePath("../CameraDataLeft")
+camera_right = NodePath("../CameraDataRight")
+
+[node name="CollisionShape" type="CollisionShape2D" parent="CameraTrigger"]
+shape = SubResource( 2 )
