@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="128"
-   width="128"
+   height="16"
+   viewBox="0 0 16 16"
+   width="16"
    version="1.1"
-   id="svg7"
-   sodipodi:docname="icon.svg"
+   id="svg1"
+   sodipodi:docname="cinematic_camera_2d.svg"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs7" />
+     id="defs1" />
   <sodipodi:namedview
-     id="namedview7"
+     id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -21,30 +22,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="6.3671875"
-     inkscape:cx="64"
-     inkscape:cy="64"
+     inkscape:zoom="50.9375"
+     inkscape:cx="8"
+     inkscape:cy="8"
      inkscape:window-width="1920"
      inkscape:window-height="1019"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg7" />
-  <rect
-     x="2"
-     y="2"
-     width="124"
-     height="124"
-     rx="14"
-     fill="#363d52"
-     stroke="#212532"
-     stroke-width="4"
-     id="rect1" />
+     inkscape:current-layer="svg1" />
   <path
-     d="M 74.439803,9.0000764 A 19.961945,19.961945 0 0 0 54.477857,27.478184 19.961945,19.961945 0 1 0 34.515912,61.060831 v 14.479064 a 6.6539818,6.6539818 0 0 0 6.653982,6.653982 h 39.923891 a 6.6539818,6.6539818 0 0 0 6.653982,-6.653982 V 68.885913 L 107.70971,82.193877 V 42.269986 L 87.747767,55.57795 V 43.800402 A 19.961945,19.961945 0 0 0 74.439803,9.0000764 Z"
+     d="m 9.531253,1.1478352e-5 a 3,3 0 0 0 -3,2.776999921648 3,3 0 1 0 -3,5.0469995 v 2.1760001 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 V 9.0000109 l 3,2.0000001 V 5.0000114 l -3,1.9999995 V 5.2300114 a 3,3 0 0 0 -2,-5.229999921648 z"
      fill="#8da5f3"
-     id="path1"
-     style="stroke-width:6.65398" />
+     id="path1" />
   <path
      sodipodi:type="star"
      style="fill:#8da5f3;stroke:#8da5f3"
@@ -60,6 +50,6 @@
      inkscape:rounded="0"
      inkscape:randomized="0"
      d="m 7.9539123,11.383124 -3.6220859,2.091213 0,-4.1824249 z"
-     inkscape:transform-center-x="-5.1523013"
-     transform="matrix(8.5348096,0,0,6.0150338,8.2960908,33.318007)" />
+     inkscape:transform-center-x="-0.63579241"
+     transform="matrix(1.053193,0,0,0.74225341,1.1519684,5.2505259)" />
 </svg>

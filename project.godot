@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Plugin - Virtual Camera 2D"
+config/name="Cinematic Camera 2D"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -18,7 +18,12 @@ config/icon="res://icon.svg"
 
 window/size/viewport_width=960
 window/size/viewport_height=540
+window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/virtual_camera_2d/plugin.cfg")
+
+[filesystem]
+
+import/blender/enabled=false

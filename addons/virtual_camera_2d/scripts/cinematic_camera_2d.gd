@@ -1,3 +1,4 @@
+@icon("res://addons/virtual_camera_2d/icons/cinematic_camera_2d.svg")
 class_name CinematicCamera2D
 extends Camera2D
 
