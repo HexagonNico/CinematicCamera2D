@@ -1,5 +1,5 @@
 @tool
-@icon("res://addons/virtual_camera_2d/icons/virtual_camera_2d.svg")
+@icon("res://addons/cinematic_camera_2d/icons/virtual_camera_2d.svg")
 class_name VirtualCamera2D
 extends Node2D
 
