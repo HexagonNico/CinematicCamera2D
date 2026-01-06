@@ -1,4 +1,8 @@
 
+# This project is no longer being updated
+
+For a better camera addon for Godot, have a look at [Phantom Camera](https://phantom-camera.dev/).
+
 # Cinematic Camera 2D plugin
 
 A plugin that adds a VirtualCamera2D node and a CinematicCamera2D node that allow to create smooth transitions between cameras.
